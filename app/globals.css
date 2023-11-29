@@ -17,6 +17,10 @@ body{
       width: 200px;
       height: 200px;
     }
+    .customsolution {
+      width: 550px;
+      height: 600px;
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -29,5 +33,9 @@ body{
     .customeimage {
       width: 200px;
       height: 200px;
+    }
+    .customsolution {
+      width: 350px;
+      height: 350px;
     }
 }
