@@ -9,11 +9,25 @@ body{
     }
     .customoffer {
         font-size: 30px;
-      }
+    }
+    .customlivre {
+      font-size: 36px;
+    }
+    .customeimage {
+      width: 200px;
+      height: 200px;
+    }
 }
 
 @media screen and (max-width: 568px) {
     .customoffer {
         font-size: 20px;
-      }
+    }
+    .customlivre {
+      font-size: 26px;
+    }
+    .customeimage {
+      width: 200px;
+      height: 200px;
+    }
 }

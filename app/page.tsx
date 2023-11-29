@@ -4,6 +4,7 @@ import Box from '@mui/material/Box'
 
 import Homes from "@/ui/Homes/Homes"
 import Offres from '@/ui/Offres/Offres'
+import CTA from '@/ui/CTA/CTA'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <>
         <Homes />
         <Offres />
+        <CTA />
       </>
     
     </Box>
