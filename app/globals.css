@@ -2,3 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .customtitle {
+      font-size: 45px;
+    }
+    .respSpan{
+      font-size: 10%;
+    }
+}
