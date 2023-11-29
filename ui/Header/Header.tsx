@@ -24,7 +24,6 @@ const navitems = {
     fontWeight: 400,
     lineHeight: 'normal',
     fontFamily: 'Inter',
-    // backgroundColor: 'red',
 }
 
 const btnStyle = {

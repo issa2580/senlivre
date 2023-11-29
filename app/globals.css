@@ -7,7 +7,13 @@ body{
     .customtitle {
       font-size: 45px;
     }
-    .respSpan{
-      font-size: 10%;
-    }
+    .customoffer {
+        font-size: 30px;
+      }
+}
+
+@media screen and (max-width: 568px) {
+    .customoffer {
+        font-size: 20px;
+      }
 }
