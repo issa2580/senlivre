@@ -82,7 +82,7 @@ const Offres = () => {
                     Les offres à ne pas rater
                 </Typography>
             </Box>
-            <Box sx={{py: '100px', background: '#ddd'}}>
+            <Box sx={{py: '100px', background: '#fff'}}>
                 <Container>
                     <Box 
                         sx={{

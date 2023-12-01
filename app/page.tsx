@@ -6,6 +6,7 @@ import Homes from "@/ui/Homes/Homes"
 import Offres from '@/ui/Offres/Offres'
 import CTA from '@/ui/CTA/CTA'
 import Book from '@/ui/Book/Book'
+import Promo from '@/ui/Promo/Promo'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Offres />
         <CTA />
         <Book />
+        <Promo />
       </>
     
     </Box>
