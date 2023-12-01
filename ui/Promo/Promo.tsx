@@ -72,8 +72,9 @@ const Promo = () => {
         <Box 
             sx={{
                 flexGrow: 1, 
-                py: '100px',
-                textAlign: 'center'
+                pt: '100px', 
+                pb: '100px',
+                textAlign: 'center',
             }}>
             <Grid 
                 container
@@ -89,7 +90,6 @@ const Promo = () => {
                 <Grid
                     color='white'
                     sx={{
-                        // my: '50px',
                         gap: '30px',
                         background: '#5A20CB', 
                         display: 'flex', 
@@ -124,15 +124,6 @@ const Promo = () => {
                     <Box>
                         <Image className='customsolution' src={images.Solution} alt="Teranga livre" width='500' height='600' />
                     </Box>
-                    {/* <Box 
-                        sx={{
-                            width: '100%', 
-                            height: '100px', 
-                            flexShrink: 0,
-                            border: '1px solid #FFFFFF',
-                            background: '#5A20CB'
-                        }}>
-                    </Box> */}
                 </Grid>
             </Grid>
         </Box>

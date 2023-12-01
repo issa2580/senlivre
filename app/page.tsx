@@ -7,6 +7,7 @@ import Offres from '@/ui/Offres/Offres'
 import CTA from '@/ui/CTA/CTA'
 import Book from '@/ui/Book/Book'
 import Promo from '@/ui/Promo/Promo'
+import Newsletter from '@/ui/Newsletter/Newsletter'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <CTA />
         <Book />
         <Promo />
+        <Newsletter />
       </>
     
     </Box>

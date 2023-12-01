@@ -5,5 +5,5 @@ import IconButton from '@mui/material/IconButton';
 export const icons = {
     MenuIcon,
     IconButton,
-    ShoppingCartIcon
+    ShoppingCartIcon,
 }
