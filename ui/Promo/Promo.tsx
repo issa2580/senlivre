@@ -1,10 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
+import Container from '@mui/material/Container'
+
 import { images } from '@/images/images';
-import Image from 'next/image';
+
 
 const livreStyles = {
     textAlign: 'center',
@@ -84,7 +87,7 @@ const Promo = () => {
                     sx={{background: '#5A20CB'}}
                     item xs={1} md={1} lg={1}>
                     <Box sx={{position: 'relative'}}>
-                        <Image className='customsolution' src={images.Teranga} alt="Teranga livre" width='430' height='530' />
+                        <Image className='customsolution' src={images.Teranga} alt="Teranga livre" width='400' height='430' />
                     </Box>
                 </Grid>
                 <Grid
@@ -121,8 +124,8 @@ const Promo = () => {
                 <Grid
                     sx={{background: '#5A20CB'}}
                     item xs={1} md={1} lg={1}>
-                    <Box>
-                        <Image className='customsolution' src={images.Solution} alt="Teranga livre" width='500' height='600' />
+                    <Box sx={{position: 'relative', top: '-10px'}}>
+                        <Image className='customsolution' src={images.Solution} alt="Teranga livre" width='445' height='500' />
                     </Box>
                 </Grid>
             </Grid>
